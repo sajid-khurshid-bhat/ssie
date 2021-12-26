@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue",
+    sans-serif, Helvetica, sans-serif;
+}
+/* li {
+  list-style: square;
+} */
+hr {
+  margin: 10px 0px;
+}
+h3 {
+  color: #00abae;
+}
+h4 {
+  color: #00abae;
+}
+h2 {
+  color: #00abae;
+}
+.navbar .navbar-brand img {
+  width: 150px;
+}
+.main img {
+  width: 100%;
+}
+
+/* /**************
+**Header
+***************/
+/* header {
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00204a;
+  opacity: 0.7;
+  position: sticky;
+  top: 0;
+}
+header .log {
+  width: 60%;
+}
+header .logo img {
+  width: 150px;
+  padding: 5px;
+}
+header .navbar {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+header .navbar a {
+  text-decoration: none;
+  color: #00b3ff;
+  font-family: "Raleway", sans-serif;
+}
+header .navbar a:hover {
+  color: #00abae;
+}
+.main img {
+  width: 100%;
+}
+/*****************
+****Media screen
+*******************/
+@media screen and (max-width: 500px) {
+  header .logo {
+    width: 20%;
+  }
+  header .navbar {
+    width: 80%;
+  }
+  .main img {
+    width: 100%;
+  }
+}
+
+/*****************
+****About Container
+*******************/
+.about-container {
+  padding: 0px 50px;
+  background-color: #f5fafa;
+}
+.about-container .features {
+  padding: 0px 15px 10px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+.about-container .features h2 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  font-weight: 500;
+  list-style: 1.2;
+}
+.about-container .features span {
+  color: #00abae;
+  letter-spacing: 2mm;
+}
+.about-container .ssie-features {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin: 0 auto;
+  position: relative;
+}
+.about-container .ssie-features .modern-facilities {
+  margin: 50px 20px 50px 20px;
+  padding: 15px;
+  border: 1px solid #303030;
+  position: relative;
+}
+.about-container .ssie-features .modern-facilities .graduation-cap {
+  width: 50px;
+  height: 50px;
+  background: url(img/graduate.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -25px;
+  left: 15px;
+}
+.about-container .ssie-features .modern-facilities h2 {
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #00abae;
+}
+.about-container .ssie-features .modern-facilities h3 li span {
+  padding: 0px 27px;
+}
+.about-container .ssie-features .modern-facilities .features-image img {
+  width: 100%;
+  height: 185px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+.about-container .ssie-features .modern-facilities p {
+  font-size: 14px;
+  text-align: justify;
+}
+@media screen and (max-width: 500px) {
+  .about-container .ssie-features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/***********************
+*****Skills
+************************/
+.skills {
+  width: 100%;
+  padding: 50px 0px;
+}
+.skills .subtitle-tag {
+  text-align: center;
+  font-size: 40px;
+  padding: 0px 15px 10px 0px;
+}
+.skills .subtitle-tag h2 {
+  font-size: 2rem;
+}
+.skills .todays-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 30px 50px 0 50px;
+}
+.skills .todays-skills .critical-thinking {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.skills .todays-skills .critical-thinking .critical-image img {
+  width: 250px;
+  clip-path: circle(50% at 50% 50%);
+}
+@media screen and (max-width: 500px) {
+  .skills .todays-skills {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  .skills .todays-skills .critical-thinking .critical-image img {
+    width: 190px;
+  }
+  .skills .todays-skills .critical-thinking {
+    padding: 0;
+  }
+  .skills .subtitle-tag {
+    padding: 0;
+  }
+}
+/***********************
+*****Glimpses
+*************************/
+.glimpses {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #f5fafa;
+}
+.glimpses .head {
+  text-align: center;
+  margin: 30px 0px;
+}
+.glimpses .photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 30px 50px 0 100px;
+  grid-gap: 30px;
+  align-items: center;
+}
+.glimpses .photos img {
+  width: 500px;
+}
+@media screen and (max-width: 500px) {
+  .glimpses .photos {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  .glimpses .photos img {
+    width: 330px;
+  }
+}
