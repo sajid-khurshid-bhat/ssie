@@ -222,7 +222,7 @@ header .navbar a:hover {
 @media screen and (max-width: 500px) {
   .glimpses .photos {
     grid-template-columns: repeat(1, 1fr);
-    padding: 10px 0px 0px 40px;
+    padding: 10px 0px 0px 15px;
   }
   .glimpses .photos img {
     width: 330px;
